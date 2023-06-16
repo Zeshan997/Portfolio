@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;  
+}
+body{
+    margin-inline: 30px;
+    padding: 0px;
+}
+.section-2{
+    margin-top: 20px;
+}
+.container{
+    display:flex;
+}
+.portfolio{
+    width: 15%;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+.portfolio a{
+    text-decoration: none;
+}
+.navbar{
+    width: 85%;
+    background-color: #3399CA;
+}
+.ul-setting{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.ul-setting li{
+    border-right: 2px solid white;
+}
+.ul-setting li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 17px 45px;
+}
+.ul-setting li a:hover{
+    background-color: aliceblue;
+    color: #3399CA;
+}
+.part-2{
+    background-color: aliceblue;
+    /* padding-block: 5px; */
+    padding: 5px 0px 5px 20px;  
+}
+.section-3{
+    border-bottom: 2px solid rgb(179, 191, 202);
+    padding: 10px 0px;
+}
+.section-4{
+    padding-bottom: 50px;
+}
+.title{
+    width: 15%;
+    padding-left: 20px;
+}
+.description{
+    width: 85%;
+}
+.block{
+    width: 15%;
+}
+.third-block{
+    width: 18%;
+}
+.first-block {
+    padding-left: 20px;
+}
+.forth-block{
+   width: 55%;
+   padding-inline: 40px;
+}
+.footer-section{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.footer-section li a{
+    text-decoration: none;    
+}
+.sub-block{
+    display: flex;
+}
+.sub-2{
+    padding-right: 10px;
+}
+.sub-3 p{
+    margin: 0px;
+}
+.sub-3 p span a{
+    text-decoration: none;
+}
+.section-5{
+    background-color: aliceblue;
+}
+.section-5{
+    border-top: 10px solid #3399CA;
+}
+.copyright-info{
+    text-align: center;
+    background-color: #3399CA;
+    padding-block: 5px;
+    color: white;
+}
